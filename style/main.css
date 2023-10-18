@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.container {
+    display: flex;
+}
+
+section {
+    padding: 20px;
+}
+
+section.section-one {
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
+section.section-one h3 {
+    color: red;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    display: inline-block;
+    padding: 5px;
+}
+
+section.section-two {
+    background: rgb(15, 0, 0);
+    color: rgb(255, 255, 255);
+    ;
+
+}
+
+section.section-two p {
+    padding: 10px;
+    box-shadow: 0 -5px 10px red;
+    margin-bottom: 25px;
+}
+
+.container img {
+    width: 100%;
+    box-shadow: 0 0 15px red;
+}
+
+.container div {
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:700px) {
+    .container {
+        flex-direction: column;
+    }
+    .container div {
+        width: 85%;
+        margin: 15px auto;
+       
+    }
+   
+}
+
+b {
+    color: rgba(209, 53, 53, 0.623);
+}
+
+section.section-two h2 {
+
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px red;
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    border: 5px ridge rgb(209, 43, 43);
+    box-shadow: 0 0 5px red;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Black Ops One', sans-serif;
+    margin-top: 30px;
+}
+
+button:hover {
+    border: 5px ridge rgb(255, 177, 177);
+    color: red;
+
+}

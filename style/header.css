@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+body {
+    font-family: 'Black Ops One', sans-serif;
+}
+
+
+
+header {
+    background: #881414 url('../images/Cyberpunk.jpg') center center;
+    height: 440px;
+}
+
+
+header>div {
+    padding: 100px;
+
+}
+
+header div.title {
+
+    margin: auto;
+    border: 5px ridge rgb(0, 0, 0);
+    min-width: 200px;
+    max-width: 1000px;
+    animation: animacao-header 2s linear infinite;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+@keyframes animacao-header {
+    0% {
+        color: #A407EB;
+    }
+
+    50% {
+        color: #EB00E4;
+    }
+
+    100% {
+        color: #9D6EF0;
+    }
+}
+
+header p.p1 {
+    text-align: center;
+}
+
+header p.p2 {
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+@media screen and (max-width:1300px) {
+
+    header div.title {
+
+        width: 100%;
+        min-width: 200px;
+        max-width: 1000px;
+    }
+
+}
