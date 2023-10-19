@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Black Ops One', sans-serif;
+    font-size: 62.5%;
 }
 
 
@@ -10,24 +11,32 @@ body {
 header {
     background: #881414 url('../images/Cyberpunk.jpg') center center;
     height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-header>div {
-    padding: 100px;
-
+.title p,h1 {
+    margin: 15px auto;
 }
+
+.title h1 {
+    font-size: 2rem;
+}
+
+.title p {
+    font-size: 1.4rem;
+ }
 
 header div.title {
-
-    margin: auto;
+    margin:10px auto;
     border: 5px ridge rgb(0, 0, 0);
     min-width: 200px;
-    max-width: 1000px;
+    width: 60%;
     animation: animacao-header 2s linear infinite;
     background-color: rgba(0, 0, 0, 0.8);
-
 }
+
 
 @keyframes animacao-header {
     0% {
@@ -55,13 +64,11 @@ header h1 {
     text-align: center;
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:600px) {
 
     header div.title {
+        width: 85%;
 
-        width: 100%;
-        min-width: 200px;
-        max-width: 1000px;
     }
 
 }
